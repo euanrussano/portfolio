@@ -5,8 +5,6 @@ section:
   enable: true
   weight: 5
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
 # filter buttons
 buttons:
@@ -16,50 +14,81 @@ buttons:
   filter: "professional"
 - name: Academic
   filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: R&D / Lab
+  filter: "lab"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+- name: ProcessLab - Dynamic Systems Simulation Library
+  image: images/sections/projects/processlab.png
+  role: Creator & Lead Developer
+  timeline: "2026"
+  repo: https://github.com/euanrussano/processlab
+  url: https://pypi.org/project/processlab/
+  summary: >
+    An open-source Python library for simulating dynamic systems using 
+    computational graphs. Features node-based architecture for building 
+    differential equations, multiple numerical integration methods (Euler, RK4), 
+    event detection, and flexible data recording. Published on PyPI with 
+    comprehensive documentation on Read the Docs.
+  tags: ["open-source", "python", "simulation", "numerical-methods", "ode", "pypi"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+- name: Engineering Process Simulation & Optimization Toolkit
+  image: images/sections/projects/process-simulation.png
+  role: Lead Consultant & Developer
+  timeline: "2017 – Present"
+  summary: >
+    A collection of reusable Python-based tools for dynamic process simulation,
+    optimization, and control, including tank systems, flow routing,
+    and decision-support models for engineering applications.
+  tags: ["professional", "process-control", "simulation", "machine-learning"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: Grey-Box Modeling for Flood Forecasting
+  logo: images/sections/projects/hydro.png
+  image: images/sections/projects/hydro.png
+  role: Doctoral Research Assistant
+  timeline: "2014 – 2017"
+  summary: >
+    Development of grey-box models combining hydrological first-principles
+    with machine learning techniques for operational flood forecasting
+    and Model Predictive Control.
+  tags: ["academic", "machine-learning", "hydroinformatics", "control"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: Pressure Control and Fluid Loss Minimization in Oil Wells
+  logo: images/sections/projects/oil-gas.png
+  role: Research Engineer
+  timeline: "2012 – 2014"
+  summary: >
+    Dynamic modeling and control strategies for regulating bottom-hole
+    pressure during oil well drilling, aiming to minimize fluid loss
+    and operational risks.
+  tags: ["academic", "process-control", "optimization"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Applied Machine Learning for Engineering Systems
+  logo: images/sections/projects/ml-engineering.png
+  role: Consultant
+  timeline: "2017 – Present"
+  summary: >
+    Applied machine learning solutions for regression, time series forecasting,
+    and decision support in engineering, environmental, and financial systems.
+  tags: ["professional", "machine-learning", "data-science"]
+
+- name: Roguelike Farming RPG — Agent-Based Simulation Project
+  logo: images/sections/projects/farming-rpg.png
+  role: Designer & Developer
+  timeline: "2025 – Present"
+  summary: >
+    A step-by-step developed roguelike farming RPG used as an experimental
+    sandbox for agent-based modeling, resource flow simulation,
+    decision-making systems, and software architecture patterns.
+  tags: ["lab", "simulation", "agent-based", "software-architecture"]
+
+- name: Educational Simulation Frameworks
+  logo: images/sections/projects/education.png
+  role: Author & Developer
+  timeline: "2017 – Present"
+  summary: >
+    A set of educational projects and frameworks designed to teach
+    process modeling, control, and machine learning through
+    interactive simulations and structured case studies.
+  tags: ["professional", "academic", "education", "simulation"]

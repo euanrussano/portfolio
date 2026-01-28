@@ -2,7 +2,7 @@
 baseURL: https://hugo-themes.github.io/toha-example-site/
 
 languageCode: bn
-title: "John's Blog"
+title: "Euan Russano"
 
 # Use Hugo modules to add theme
 module:
@@ -24,13 +24,18 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Euan Russano"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+  pt-BR:
+    languageCode: pt-BR
+    languageName: Português (Brasil)
+    title: "Euan Russano"
     weight: 2
+  es:
+    languageCode: es
+    languageName: Español
+    title: "Euan Russano"
+    weight: 3
 # default language for the content
 defaultContentLanguage: en
 
@@ -71,7 +76,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/euanrussano/portfolio
   # Default branch of your Git repo
   gitBranch: main
 

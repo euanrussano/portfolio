@@ -1,73 +1,72 @@
 # section information
 section:
-  name: Experiences
+  name: Experience
   id: experiences
   enable: true
   weight: 3
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true 
 
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: Independent Consultant & Tutor
+    url: "#"
+    location: Brazil / Europe / Remote
+    logo: /images/sections/experiences/consulting.png
+    overview: >
+      Independent consulting and tutoring services in Data Science,
+      Artificial Intelligence, Process Control, and Scientific Computing,
+      serving clients and students worldwide.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+  - designation: Data Science & AI Consultant
+    start: Jan 2017
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Delivered predictive models, simulations, and optimization solutions for engineering, environmental, and financial problems.
+    - Designed and deployed machine learning pipelines for time series forecasting, control systems, and decision support.
+    - Built data-driven and grey-box models combining first-principles physics with machine learning.
+    - Supported startups, engineers, and research groups across Brazil, Europe, and North America.
+    - Authored technical material and reusable frameworks in Python for modeling and control.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+  - designation: Senior Tutor – Python, Data Science & Machine Learning
+    start: Jan 2017
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Tutored over 280 students worldwide via platforms such as Preply and Chegg.
+    - Designed personalized learning paths and project-based curricula.
+    - Mentored students on real-world applications in data science, machine learning, and process modeling.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Universität Duisburg-Essen
+    url: "https://www.uni-due.de/"
+    location: Essen, Germany
+    logo: /images/sections/experiences/ude.png
+    overview: >
+      Research activities focused on hydrology, hydroinformatics,
+      and decision support systems using advanced modeling and control techniques.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Doctoral Research Assistant
+    start: Oct 2014
+    end: Dec 2017
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Developed grey-box models combining hydrological principles with machine learning techniques.
+    - Applied Model Predictive Control (MPC) for flow routing and flood forecasting.
+    - Built decision support systems for operational forecasting.
+    - Published peer-reviewed journal articles and conference papers.
+    - Collaborated with interdisciplinary research teams in Germany and Europe.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Petrobras / Universidade Federal Rural do Rio de Janeiro (UFRRJ)
+    url: "https://www.petrobras.com.br/"
+    location: Brazil
+    logo: /images/sections/experiences/petrobras.png
+    overview: >
+      Applied research projects in oil and gas engineering,
+      focusing on process control, fluid dynamics, and chemical systems.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Research Assistant
+    start: Jan 2012
+    end: Dec 2014
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Developed dynamic pressure control strategies to minimize fluid loss during oil well drilling.
+    - Modeled reservoir and drilling systems using control-oriented approaches.
+    - Investigated hydrogen sulfide scavengers, corrosion inhibition, and flow behavior.
+    - Supported experimental analysis and numerical modeling for industrial applications.

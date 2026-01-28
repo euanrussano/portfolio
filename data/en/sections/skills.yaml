@@ -6,66 +6,151 @@ section:
   weight: 2
   showOnNavbar: true
   filter: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
 # filter buttons
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
+- name: Programming
   filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Data Science & ML
+  filter: "machinelearning"
+- name: Process & Control
+  filter: "process-control"
+- name: Tools
+  filter: "tools"
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
+# Your Skills
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Python
+  logo: /images/sections/skills/python-original.svg
+  summary: >
+    Primary language for data science, machine learning, simulation,
+    optimization, and control-oriented modeling. Extensive experience
+    building reusable frameworks and production-ready pipelines.
+  categories: ["language", "machinelearning"]
+  url: "https://www.python.org/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: Machine Learning
+  #logo: /images/sections/skills/ml.png
+  summary: >
+    Applied machine learning for time series forecasting, regression,
+    classification, NLP, and optimization using real-world engineering data.
+  categories: ["machinelearning"]
+  url: "https://scikit-learn.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: Process Control
+  #logo: /images/sections/skills/control.png
+  summary: >
+    Strong background in dynamic modeling and control systems,
+    including PID, Model Predictive Control (MPC), and decision support systems.
+  categories: ["process-control"]
+
+- name: Scientific Computing
+  #logo: /images/sections/skills/scientific.png
+  summary: >
+    Numerical methods, simulation, optimization, and object-oriented
+    modeling for scientific and engineering applications.
+  categories: ["process-control", "machinelearning"]
+
+- name: Data Science
+  #logo: /images/sections/skills/datascience.png
+  summary: >
+    Data analysis, visualization, and statistical modeling using
+    Pandas, NumPy, SQL, and modern visualization libraries.
+  categories: ["machinelearning"]
+
+- name: Deep Learning
+  #logo: /images/sections/skills/deeplearning.png
+  summary: >
+    Experience with neural networks using TensorFlow and PyTorch
+    for time series, regression, and applied AI tasks.
+  categories: ["machinelearning"]
+
+- name: Optimization
+  #logo: /images/sections/skills/optimization.png
+  summary: >
+    Mathematical optimization applied to engineering systems,
+    including constrained optimization and control-oriented problems.
+  categories: ["process-control", "machinelearning"]
+
+- name: Git
+  logo: /images/sections/skills/git-original.svg
+  summary: >
+    Version control for research and production code,
+    including GitHub and GitLab workflows.
+  categories: ["tools"]
+  url: "https://git-scm.com/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
+  summary: >
+    Containerization of data science and simulation workflows
+    for reproducibility and deployment.
+  categories: ["tools"]
   url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: Java
+  logo: images/sections/skills/java.svg
+  summary: >
+    Strong experience in object-oriented design for simulation engines,
+    optimization tools, and educational platforms. Used for large,
+    structured, and maintainable engineering software.
+  categories: ["language"]
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+- name: MATLAB
+  logo: images/sections/skills/matlab.svg
+  summary: >
+    Used for process modeling, control system design, numerical simulation,
+    and rapid prototyping of dynamic systems in engineering contexts.
+  categories: ["process-control"]
+  url: "https://www.mathworks.com/products/matlab.html"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+- name: AutoCAD
+  #logo: images/sections/skills/autocad.svg
+  summary: >
+    Experience interpreting and working with technical drawings and layouts
+    for engineering systems, infrastructure, and industrial facilities.
+  categories: ["tools"]
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: Scientific & Numerical Modeling
+  #logo: images/sections/skills/scientific.svg
+  summary: >
+    Development of first-principles, data-driven, and grey-box models
+    for physical, chemical, and environmental systems.
+  categories: ["process-control"]
+
+- name: Data Science
+  #logo: images/sections/skills/datascience.svg
+  summary: >
+    Data analysis, visualization, and statistical modeling using
+    Pandas, NumPy, SQL, and modern visualization libraries
+    for engineering decision making.
+  categories: ["machinelearning"]
+
+- name: R
+  logo: images/sections/skills/r.svg
+  summary: >
+    Statistical computing and data analysis for engineering
+    and scientific applications, including exploratory
+    analysis and model validation.
+  categories: ["language"]
+  url: "https://www.r-project.org/"
+
+- name: Julia
+  logo: images/sections/skills/julia.svg
+  summary: >
+    High-performance numerical computing and prototyping
+    for optimization and simulation of dynamic
+    engineering systems.
+  categories: ["language"]
+  url: "https://julialang.org/"
+
+- name: scikit-learn
+  logo: images/sections/skills/scikitlearn.svg
+  summary: >
+    Core library for classical machine learning in engineering applications,
+    including regression, classification, clustering, feature engineering,
+    model evaluation, and pipeline-based workflows.
+  categories: ["machinelearning"]
+  url: "https://scikit-learn.org/"

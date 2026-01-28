@@ -5,78 +5,139 @@ section:
   enable: true
   weight: 6
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
 # filter buttons
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
+- name: Machine Learning
   filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: Process Control
+  filter: "process-control"
+- name: Hydroinformatics
+  filter: "hydroinformatics"
+- name: Books
+  filter: "books"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: Smart Monitoring and Decision Making for Regulating Annulus Bottom Hole Pressure While Drilling Oil Wells
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Brazilian Journal of Chemical Engineering
+    date: 2016
+    url: https://www.scielo.br/j/bjce/
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: M. P. Vega
+  - name: F. B. Vieira
+  - name: L. D. Fernandes
+  - name: M. G. Freitas
+  - name: E. Russano
+  - name: A. L. Martins
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: >
+      This work presents a smart monitoring and decision-support framework
+      for regulating annulus bottom hole pressure during oil well drilling,
+      combining dynamic modeling and control strategies to minimize fluid loss
+      and operational risks.
+    url: "#"
+  categories: ["process-control"]
+  tags: ["Process Control", "Oil & Gas", "Dynamic Modeling"]
 
-- title: An Sample Paper on Image Processing
+- title: Multi-Step Flow Routing Using Artificial Neural Networks for Decision Support
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Advances in Hydroinformatics (simHydro 2017)
+    date: 2017
+    url: "#"
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: E. Russano
+  - name: D. Schwanenberg
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+    summary: >
+      A neural-network-based approach for multi-step flow routing,
+      designed for operational flood forecasting and decision support
+      systems in hydrological applications.
+    url: "#"
+  categories: ["machinelearning","hydroinformatics"]
+  tags: ["Machine Learning", "Time Series", "Hydrology"]
 
-- title: An Example Paper on Security
+- title: Gray-Box Reservoir Routing for Operational Forecasting and Decision Support Systems
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: European Geosciences Union General Assembly (EGU)
+    date: 2017
+    url: "#"
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: E. Russano
+  - name: D. Schwanenberg
+  - name: R. A. Montero
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: >
+      This study introduces a gray-box modeling approach combining
+      physical hydrological models with machine learning techniques
+      to improve flow propagation forecasting in operational systems.
+    url: "#"
+  categories: ["machinelearning","hydroinformatics"]
+  tags: ["Grey-Box Modeling", "Flood Forecasting", "Decision Support"]
+
+- title: Object-Oriented Modelling for Scientific Computing
+  publishedIn:
+    name: Arcler Press
+    date: 2017
+    url: "#"
+  authors:
+  - name: E. Russano
+  - name: E. F. Avelino
+  paper:
+    summary: >
+      A practical guide to object-oriented modeling techniques applied
+      to scientific computing, simulation, and engineering applications.
+    url: "#"
+  categories: ["books"]
+  tags: ["Scientific Computing", "OOP", "Modeling"]
+
+- title: Hydroinformatics
+  publishedIn:
+    name: Arcler Press
+    date: 2017
+    url: "#"
+  authors:
+  - name: E. Russano
+  - name: E. F. Avelino
+  paper:
+    summary: >
+      An introduction to hydroinformatics, covering data-driven modeling,
+      simulation, and decision support systems for water-related problems.
+    url: "#"
+  categories: ["books","hydroinformatics"]
+  tags: ["Hydrology", "Machine Learning", "Decision Support"]
+
+- title: Introduction to Process Control
+  publishedIn:
+    name: Arcler Press
+    date: 2018
+    url: "#"
+  authors:
+  - name: E. Russano
+  - name: E. F. Avelino
+  paper:
+    summary: >
+      A comprehensive introduction to classical and modern process control,
+      including dynamic modeling, PID control, and control-oriented simulation.
+    url: "#"
+  categories: ["books","process-control"]
+  tags: ["Process Control", "PID", "Modeling"]
+
+- title: Fundamentals of Machine Learning Using Python
+  publishedIn:
+    name: Arcler Press
+    date: 2019
+    url: "#"
+  authors:
+  - name: E. Russano
+  - name: E. F. Avelino
+  paper:
+    summary: >
+      A hands-on introduction to machine learning concepts and algorithms,
+      with practical Python implementations and real-world engineering examples.
+    url: "#"
+  categories: ["books","machinelearning"]
+  tags: ["Machine Learning", "Python", "Applied AI"]
